@@ -1,0 +1,36 @@
+{
+  "fisdev": {
+    "ubprPath": "/f/bulk-ubpr",
+    "callPath": "/f/bulk-call",
+    "pgConnectionUri": "postgresql://admin:admin@localhost:15432/fisdb",
+    "fiswebConnectionUser": "admin",
+    "fiswebConnectionPassword": "bL1ster",
+    "fiswebConnectionPort": 13306,
+    "fiswebConnectionHost": "localhost",
+    "fiswebConnectionDb": "bankdata2017q2",
+    "learnContextRefId": false,
+    "reportedOn": "2021-09-30"
+  },
+  "data": {
+    "ubprPathGlob": "glob:/f/bulk-ubpr/*.zip",
+    "pgConnectionUri": "postgresql://admin:admin@pg1:5432/fisdb",
+    "fiswebConnectionUser": "admin",
+    "fiswebConnectionPassword": "bL1ster",
+    "fiswebConnectionPort": 3306,
+    "fiswebConnectionHost": "qa",
+    "fiswebConnectionDb": "bankdata2017q2",
+    "learnContextRefId": false,
+    "reportedOn": "2021-09-30"
+  },
+  "fifintech": {
+    "ubprPathGlob": "glob:/f/bulk-ubpr/*.zip",
+    "pgConnectionUri": "postgresql://admin:admin@pg2:5432/fisdb",
+    "fiswebConnectionUser": "admin",
+    "fiswebConnectionPassword": "bL1ster",
+    "fiswebConnectionPort": 3306,
+    "fiswebConnectionHost": "fisweb",
+    "fiswebConnectionDb": "bankdata2017q2",
+    "learnContextRefId": false,
+    "reportedOn": "2021-09-30"
+  }
+}
